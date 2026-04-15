@@ -11,11 +11,11 @@ Choose where to install postical:
 ### Option A: Global (available in all projects)
 
 ```bash
-# From GitHub
-claude plugins install github:mindantic/postical
+# 1. Add the Mindantic marketplace (one-time)
+claude plugins marketplace add mindantic/claude-plugins
 
-# Or from npm
-claude plugins install @mindantic/postical
+# 2. Install postical
+claude plugins install postical@mindantic
 ```
 
 ### Option B: Project-level (available only in this project)
