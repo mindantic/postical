@@ -6,41 +6,41 @@ Postical provides an 8-step pipeline from brand profiling through content writin
 
 ## Installation
 
-Choose where to install postical:
-
-### Option A: Global (available in all projects)
+### Step 1: Add the Mindantic marketplace (one-time)
 
 ```bash
-# 1. Add the Mindantic marketplace (one-time)
 claude plugins marketplace add mindantic/claude-plugins
-
-# 2. Install postical
-claude plugins install postical@mindantic
 ```
 
-### Option B: Project-level (available only in this project)
+### Step 2: Install postical
+
+Choose your scope:
 
 ```bash
-# Clone skills into your project's .claude directory
-git clone https://github.com/mindantic/postical.git /tmp/postical
-cp -r /tmp/postical/skills/* .claude/skills/
-cp -r /tmp/postical/templates ./templates
-rm -rf /tmp/postical
+# Global — available in all projects
+claude plugins install postical@mindantic
+
+# Or project-level — available only in this project
+claude plugins install postical@mindantic --scope project
 ```
 
-**Which should I pick?**
-- **Global** if you manage content for multiple brands across different projects
-- **Project-level** if you only use postical in one project and want it versioned with your repo
+### Step 3: Verify
 
-### Optional: DataforSEO MCP Server
+```bash
+claude plugins list
+```
 
-For accurate keyword and competitor data, install the DataforSEO MCP server:
+You should see `postical@mindantic` with status `enabled`.
 
-1. Sign up at [dataforseo.com](https://dataforseo.com)
+### Recommended: DataforSEO MCP Server
+
+For accurate keyword volumes, competitor SEO data, and KGR scores, install the DataforSEO MCP server:
+
+1. Sign up at [dataforseo.com](https://dataforseo.com) (pay-as-you-go pricing)
 2. Install the MCP server: [github.com/dataforseo/mcp-server-typescript](https://github.com/dataforseo/mcp-server-typescript)
 3. Configure it in your Claude Code MCP settings
 
-Without DataforSEO, postical falls back to web search (less accurate but functional).
+Postical works without DataforSEO (falls back to web search), but results will be less accurate.
 
 ### Optional: Chrome Browser Automation
 
@@ -74,7 +74,7 @@ Required for affiliate product research (`/postical-generating-affiliate`) and s
 
 ## Project Structure
 
-After setup, your project will contain:
+After running `/postical-planning`, your project will contain:
 
 ```
 contexts/          # Brand, product, competitors, style, keywords, platforms
@@ -93,7 +93,7 @@ content/           # Blog posts organized by category
 
 ## Multi-Brand / Agency Use
 
-One installation per brand. For agencies managing multiple clients, create a separate project directory for each client:
+One project per brand. For agencies managing multiple clients, create a separate project directory for each client:
 
 ```
 clients/
