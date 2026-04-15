@@ -6,6 +6,10 @@ Postical provides an 8-step pipeline from brand profiling through content writin
 
 ## Installation
 
+Choose where to install postical:
+
+### Option A: Global (available in all projects)
+
 ```bash
 # From GitHub
 claude plugins install github:mindantic/postical
@@ -13,6 +17,20 @@ claude plugins install github:mindantic/postical
 # Or from npm
 claude plugins install @mindantic/postical
 ```
+
+### Option B: Project-level (available only in this project)
+
+```bash
+# Clone skills into your project's .claude directory
+git clone https://github.com/mindantic/postical.git /tmp/postical
+cp -r /tmp/postical/skills/* .claude/skills/
+cp -r /tmp/postical/templates ./templates
+rm -rf /tmp/postical
+```
+
+**Which should I pick?**
+- **Global** if you manage content for multiple brands across different projects
+- **Project-level** if you only use postical in one project and want it versioned with your repo
 
 ### Optional: DataforSEO MCP Server
 
