@@ -1,0 +1,41 @@
+# Writing Style Guide
+
+## Output Format
+- **Content Format:** [MDX / Markdown / Hugo / Other]
+- **Frontmatter Schema:**
+```yaml
+---
+title: ''
+summary: ''
+author: ''
+date: 'YYYY-MM-DD'
+tags: []
+---
+```
+- **Code Block Conventions:** [Fence line filenames / Title comments / None]
+- **Components:** [Any custom components available in content, e.g., HireMe, Callout]
+
+## DOs
+- [Rule 1: e.g., "Use contractions naturally"]
+- [Rule 2: e.g., "1-3 sentences per paragraph"]
+- [Rule 3]
+
+## DON'Ts
+- [Anti-pattern 1: e.g., "Never use 'In this article, we will...'"]
+- [Anti-pattern 2: e.g., "No em dashes"]
+- [Anti-pattern 3: e.g., "Never use 'utilize', 'leverage', or 'demonstrate'"]
+
+## Rules
+- **Paragraph Length:** [Max sentences per paragraph]
+- **Heading Style:** [Conversational / Academic]
+- **Linking:** [Internal link count, external link count, placement rules]
+- **Keyword Placement:**
+  - Primary: [frequency, positions]
+  - Secondary: [frequency, positions]
+  - Long-tail: [frequency, positions]
+
+## Mistakes
+[This section grows over time as the reviewing skill catches errors]
+
+| Mistake | How Caught | Fix |
+|---------|-----------|-----|

@@ -1,0 +1,23 @@
+# Keyword Universe
+
+## Overview
+- **Total keywords:** [N]
+- **Categories:** [N]
+- **Data source:** [DataforSEO / Web Research / User-provided]
+- **Last updated:** [YYYY-MM-DD]
+
+---
+
+## [Category Name]
+
+| Keyword | Volume | CPC | Competition | KGR |
+|---------|--------|-----|-------------|-----|
+| [keyword] | [monthly] | [$X.XX] | [Low/Medium/High] | [0.XX] |
+
+---
+
+## KGR Reference
+- **KGR < 0.25:** Easy to rank. Prioritize these.
+- **KGR 0.25-1.0:** Moderate competition.
+- **KGR > 1.0:** Hard to rank. Reconsider angle.
+- **Formula:** KGR = allintitle results / monthly search volume

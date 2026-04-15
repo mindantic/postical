@@ -1,0 +1,35 @@
+# Media & Social Posts: [Post Title]
+
+---
+
+## Blog
+
+### Hero Image
+- **Prompt:** [AI image generation prompt for hero/featured image]
+- **Dimensions:** [Per site requirements]
+- **Style:** [Photography / Illustration / Diagram / Abstract]
+
+### Section Illustrations
+- **[Section Name]:** [Prompt for section-specific visual]
+
+---
+
+## [Platform Name]
+
+### Post Copy
+[Platform-specific post content — adapted to platform's format and norms]
+
+### Hashtags
+[Platform-specific hashtags]
+
+### Image Prompts
+- **[Format — e.g., Feed Post]:**
+  - Prompt: [AI image generation prompt]
+  - Dimensions: [WxH]
+- **[Format — e.g., Carousel Slide]:**
+  - Prompt: [AI image generation prompt]
+  - Dimensions: [WxH]
+
+---
+
+(Repeat for each active platform from PLATFORMS.md)

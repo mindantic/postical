@@ -1,0 +1,37 @@
+# Competitor Analysis
+
+## Summary
+- **Total competitors analyzed:** [N]
+- **Data source:** [DataforSEO / Web Research / Manual]
+- **Date analyzed:** [YYYY-MM-DD]
+
+---
+
+## [Competitor Name]
+
+### Overview
+- **URL:** [website]
+- **Description:** [What they do — 1-2 sentences]
+- **Content Strategy:** [Blog frequency, topics, style, quality]
+
+### SEO Data
+| Metric | Value |
+|--------|-------|
+| Organic ETV | [value] |
+| Organic Keyword Count | [value] |
+| Paid ETV | [value] |
+| Paid Keyword Count | [value] |
+
+### Top Ranked Keywords
+| Keyword | Position | Volume | URL |
+|---------|----------|--------|-----|
+| [keyword] | [#] | [monthly] | [ranking URL] |
+
+### Top Ranked Pages
+| URL | Estimated Traffic | Keywords Ranking |
+|-----|-------------------|-----------------|
+| [page URL] | [traffic] | [count] |
+
+---
+
+(Repeat for each competitor)

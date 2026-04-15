@@ -1,0 +1,21 @@
+# References: [Post Title]
+
+## Parent Cornerstone
+[If cluster post — link to parent cornerstone]
+
+## Internal Links
+
+| Target Post | Anchor Text | Placement | Status |
+|------------|-------------|-----------|--------|
+| [Post title or slug] | [Natural anchor text] | [Section where link goes] | [Planned / Placed] |
+
+## External Links
+
+| Type | Source | Anchor Text | Placement | Status |
+|------|--------|-------------|-----------|--------|
+| [docs/blog/video/repo] | [URL] | [Natural anchor text] | [Section] | [Planned / Placed] |
+
+## Link Rules
+- Internal: 2-4 per post. First within 30% of content.
+- External: 2-4 per post. First within 50% of content.
+- All links use natural anchor text that fits the sentence.
