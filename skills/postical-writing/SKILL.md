@@ -18,6 +18,12 @@ Process ONE post at a time. Do NOT start the next post until the current one is 
 
 ## Prerequisites
 
+**Dependency check (run before any work):**
+
+1. **Context7 MCP** (optional): Check if `mcp__plugin_context7_context7__*` tools are available. If available, use it to pull current library/framework documentation when writing technical content. If not, fall back to web search silently.
+
+**File prerequisites:**
+
 Check that these files exist for the target post:
 - `content/[category]/[slug]/OUTLINE.md` (required)
 - `content/[category]/[slug]/KEYWORDS.md` (required)

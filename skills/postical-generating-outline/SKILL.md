@@ -19,6 +19,13 @@ Process ONE post at a time. Do NOT start the next outline until the current one 
 
 ## Prerequisites
 
+**Dependency check (run before any work):**
+
+1. **DataforSEO MCP** (recommended): Check if `mcp__dataforseo__*` tools are available. If not, warn: "DataforSEO MCP is not configured. Deep research will use web search only, which may be less thorough. For richer keyword and competitor data during research, install the DataforSEO MCP server: github.com/dataforseo/mcp-server-typescript"
+2. **Context7 MCP** (optional): Check if `mcp__plugin_context7_context7__*` tools are available. If not, no warning needed — fall back to web search silently for library documentation.
+
+**File prerequisites:**
+
 Check that these files exist:
 - `contexts/BRAND.md`
 - `contexts/PRODUCT.md`

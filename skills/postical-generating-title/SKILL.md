@@ -19,6 +19,12 @@ Do NOT run this skill unless all context files exist in `contexts/`. If any are 
 
 ## Prerequisites
 
+**Dependency check (run before any work):**
+
+1. **DataforSEO MCP** (recommended): Check if `mcp__dataforseo__*` tools are available. If not, warn the user: "DataforSEO MCP server is not configured. Topic cluster mapping will rely on existing KEYWORDS.md data only. For richer competitor gap analysis, install the DataforSEO MCP server: github.com/dataforseo/mcp-server-typescript"
+
+**File prerequisites:**
+
 Check that these files exist before starting:
 - `contexts/BRAND.md`
 - `contexts/PRODUCT.md`
