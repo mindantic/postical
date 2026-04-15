@@ -7,6 +7,10 @@ Postical provides an 8-step pipeline from brand profiling through content writin
 ## Installation
 
 ```bash
+# From GitHub
+claude plugins install github:mindantic/postical
+
+# Or from npm
 claude plugins install @mindantic/postical
 ```
 
