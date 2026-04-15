@@ -21,7 +21,7 @@ Do NOT run this skill unless all context files exist in `contexts/`. If any are 
 
 **Dependency check (run before any work):**
 
-1. **DataforSEO MCP (REQUIRED):** Check if `mcp__dataforseo__*` tools are available. If not, stop and tell the user: "DataforSEO MCP server is required but not configured. Run `/postical-planning` first — it will guide you through setup."
+1. **DataforSEO MCP:** Check if `mcp__dataforseo__*` tools are available. If not, warn the user: "DataforSEO MCP is not configured. Topic cluster mapping will use existing KEYWORDS.md data and web search, but results will be less accurate. To set it up, run `/postical-planning` again." Proceed with web search fallback.
 
 **File prerequisites:**
 

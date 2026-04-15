@@ -26,19 +26,18 @@ Do NOT proceed to any other postical skill until all context files are created a
 
 Before starting, check for dependencies:
 
-1. **DataforSEO MCP (REQUIRED):** Check if `mcp__dataforseo__*` tools are available. If not available, tell the user:
+1. **DataforSEO MCP:** Check if `mcp__dataforseo__*` tools are available. If not available, tell the user:
 
-   "Postical requires the DataforSEO MCP server for competitor analysis and keyword research. It is not currently configured.
+   "DataforSEO MCP server is not configured. Postical works without it, but for accurate competitor SEO data, keyword volumes, KGR scores, and ranked page analysis, DataforSEO is strongly recommended. Without it, I'll fall back to web search which gives approximate results.
 
-   Would you like me to help you set it up? I need your permission to install it.
-
-   **What's needed:**
+   **Would you like me to help you set it up?**
    - A DataforSEO account (sign up at https://dataforseo.com — pay-as-you-go pricing)
    - The official MCP server: github.com/dataforseo/mcp-server-typescript
 
-   **Shall I proceed with the installation?** (yes/no)"
+   (A) Yes, help me install it now
+   (B) No, continue with web search for now"
 
-   If the user says yes, guide them through installing and configuring the DataforSEO MCP server in their Claude Code settings. If the user says no, **stop the pipeline.** Do not proceed without DataforSEO.
+   If the user picks (A), guide them through installing and configuring the DataforSEO MCP server in their Claude Code settings. If the user picks (B), proceed with web search fallback — the pipeline continues but results will be less accurate.
 
 2. **Web search**: Built into Claude Code. Always available.
 3. **Existing context files**: Check if `contexts/` directory exists. If context files already exist, ask the user: "I found existing context files. Do you want to: (A) Update specific files, or (B) Start fresh and overwrite everything?"

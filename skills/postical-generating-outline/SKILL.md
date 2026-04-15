@@ -21,7 +21,7 @@ Process ONE post at a time. Do NOT start the next outline until the current one 
 
 **Dependency check (run before any work):**
 
-1. **DataforSEO MCP (REQUIRED):** Check if `mcp__dataforseo__*` tools are available. If not, stop and tell the user: "DataforSEO MCP server is required but not configured. Run `/postical-planning` first — it will guide you through setup."
+1. **DataforSEO MCP:** Check if `mcp__dataforseo__*` tools are available. If not, warn the user: "DataforSEO MCP is not configured. Deep research will use web search only, which may be less thorough. To set it up, run `/postical-planning` again." Proceed with web search fallback.
 2. **Context7 MCP** (optional): Check if `mcp__plugin_context7_context7__*` tools are available. If not, no warning needed — fall back to web search silently for library documentation.
 
 **File prerequisites:**
