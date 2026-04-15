@@ -1,6 +1,36 @@
 {
   "name": "postical",
   "version": "1.0.0",
-  "description": "Content engine plugin for Claude Code",
-  "license": "MIT"
+  "description": "Content engine plugin for Claude Code — SEO-driven pipeline from brand profiling through writing to social media posting",
+  "type": "module",
+  "main": ".opencode/plugins/postical.js",
+  "keywords": [
+    "claude-code-plugin",
+    "content-engine",
+    "seo",
+    "blog-writing",
+    "content-marketing",
+    "affiliate",
+    "social-media",
+    "keyword-research",
+    "ai-writing"
+  ],
+  "author": {
+    "name": "Shahriar P. Shuvo",
+    "email": "mindantic@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindantic/postical"
+  },
+  "homepage": "https://github.com/mindantic/postical",
+  "files": [
+    ".claude-plugin/",
+    ".opencode/",
+    "skills/",
+    "templates/",
+    "LICENSE",
+    "README.md"
+  ]
 }
