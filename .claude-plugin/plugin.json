@@ -1,0 +1,21 @@
+{
+  "name": "postical",
+  "description": "Content engine for creating, optimizing, and distributing blog content at scale. SEO-driven pipeline from brand profiling through writing to social media posting.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Shahriar P. Shuvo",
+    "email": "mindantic@gmail.com"
+  },
+  "homepage": "https://github.com/mindantic/postical",
+  "repository": "https://github.com/mindantic/postical",
+  "license": "MIT",
+  "keywords": [
+    "content-engine",
+    "seo",
+    "blog-writing",
+    "content-marketing",
+    "affiliate",
+    "social-media",
+    "keyword-research"
+  ]
+}
