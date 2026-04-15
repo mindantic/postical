@@ -7,7 +7,7 @@ Postical provides an 8-step pipeline from brand profiling through content writin
 ## Installation
 
 ```bash
-claude plugins install postical
+claude plugins install @mindantic/postical
 ```
 
 ### Optional: DataforSEO MCP Server

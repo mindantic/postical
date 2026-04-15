@@ -1,5 +1,5 @@
 {
-  "name": "postical",
+  "name": "@mindantic/postical",
   "version": "1.0.0",
   "description": "Content engine plugin for Claude Code — SEO-driven pipeline from brand profiling through writing to social media posting",
   "type": "module",

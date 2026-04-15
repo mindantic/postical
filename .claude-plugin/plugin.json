@@ -1,5 +1,5 @@
 {
-  "name": "postical",
+  "name": "@mindantic/postical",
   "description": "Content engine for creating, optimizing, and distributing blog content at scale. SEO-driven pipeline from brand profiling through writing to social media posting.",
   "version": "1.0.0",
   "author": {
